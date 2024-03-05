@@ -33,7 +33,7 @@ function App() {
 
         <div className=" gap-4 max-w-2xl">
 
-          <div classname="flex-space-x-1 overflow-hidden">
+          <div className="flex-space-x-1 overflow-hidden">
           <img src={myPhoto} className="inline-block h-40 w-40 rounded-full ring-2 ring-yellow-300" />
         </div> 
           <h1 className="text-6xl font-bold text-white">Front end</h1>
@@ -44,7 +44,7 @@ function App() {
 
           <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4 text-white">My Projects</h2>
-          <marquee behavior="string" direction="right linear-ifinite">
+          {/* <marquee behavior="string" direction="right linear-ifinite"> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             
             <div className="bg-gradient-to-r from-yellow-300 p-4 shadow-md transform hover:scale-105 transition duration-300">
@@ -64,7 +64,7 @@ function App() {
             <img src={ myPhoto6 } className="blur-sm "/>
 
            </div>
-            </marquee>
+            {/* </marquee> */}
          </section>
         </div>
       </div>
